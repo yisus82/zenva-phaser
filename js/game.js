@@ -14,10 +14,10 @@ gameScene.init = function() {
 };
 
 gameScene.preload = function() {
-  this.load.image('background', '../img/background.png');
-  this.load.image('enemy', '../img/dragon.png');
-  this.load.image('player', '../img/player.png');
-  this.load.image('goal', '../img/treasure.png');
+  this.load.image('background', '/img/background.png');
+  this.load.image('enemy', '/img/dragon.png');
+  this.load.image('player', '/img/player.png');
+  this.load.image('goal', '/img/treasure.png');
 };
 
 gameScene.create = function() {
